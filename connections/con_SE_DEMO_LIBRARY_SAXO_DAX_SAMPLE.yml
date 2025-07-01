@@ -1,0 +1,6 @@
+unique_name: con_SE_DEMO_LIBRARY_SAXO_DAX_SAMPLE
+object_type: connection
+label: con_SE_DEMO_LIBRARY_SAXO_DAX_SAMPLE
+as_connection: Snowflake
+database: SE_DEMO_LIBRARY
+schema: SAXO_DAX_SAMPLE
