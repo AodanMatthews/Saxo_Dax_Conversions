@@ -1,0 +1,16 @@
+unique_name: SCENARIOS
+object_type: dataset
+label: SCENARIOS
+columns:
+  - name: SCENARIOID
+    data_type: decimal(38,0)
+  - name: SCENARIONAME
+    data_type: string
+  - name: INCLUDEACTUALSUNTILMONTHNUMBER
+    data_type: decimal(38,0)
+  - name: SCENARIOLABEL
+    data_type: string
+  - name: DEFAULTSCENARIO
+    data_type: decimal(38,0)
+connection_id: con_SE_DEMO_LIBRARY_SAXO_DAX_SAMPLE
+table: SCENARIOS

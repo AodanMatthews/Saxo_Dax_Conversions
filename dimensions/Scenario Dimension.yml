@@ -1,0 +1,28 @@
+unique_name: Scenario Dimension
+object_type: dimension
+label: Scenarios
+hierarchies:
+  - unique_name: Scenario Hierarchy
+    label: Scenario Hierarchy
+    levels:
+      - unique_name: Scenario Label
+      - unique_name: Scenario ID
+level_attributes:
+  - unique_name: Scenario Label
+    label: Scenario Label
+    contains_unique_names: false
+    dataset: SCENARIOS
+    is_unique_key: false
+    key_columns:
+      - SCENARIOLABEL
+    name_column: SCENARIOLABEL
+  - unique_name: Scenario ID
+    label: Scenario ID
+    contains_unique_names: false
+    dataset: SCENARIOS
+    is_unique_key: false
+    key_columns:
+      - SCENARIOID
+    name_column: SCENARIOID
+    sort_column: SCENARIOID
+type: standard
