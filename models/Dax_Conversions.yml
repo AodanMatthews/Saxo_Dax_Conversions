@@ -1,0 +1,23 @@
+unique_name: Dax_Conversions
+object_type: model
+label: Dax_Conversions
+dimensions: []
+metrics:
+  - unique_name: Amount_sum
+relationships:
+  - unique_name: TOTALCLIENTSRAW_SCENARIOID_to_Scenario Dimension_Scenario ID
+    from:
+      dataset: TOTALCLIENTSRAW
+      join_columns:
+        - SCENARIOID
+    to:
+      dimension: Scenario Dimension
+      level: Scenario ID
+  - unique_name: TOTALCLIENTSRAW_SNAPSHOTDATE_to_Date Dimension_Day
+    from:
+      dataset: TOTALCLIENTSRAW
+      join_columns:
+        - SNAPSHOTDATE
+    to:
+      dimension: Date Dimension
+      level: Day

@@ -1,0 +1,14 @@
+unique_name: TOTALCLIENTSRAW
+object_type: dataset
+label: TOTALCLIENTSRAW
+columns:
+  - name: SNAPSHOTDATE
+    data_type: date
+  - name: AMOUNT
+    data_type: double
+  - name: SCENARIOID
+    data_type: decimal(38,0)
+  - name: ACCOUNTID
+    data_type: decimal(38,0)
+connection_id: con_SE_DEMO_LIBRARY_SAXO_DAX_SAMPLE
+table: TOTALCLIENTSRAW
